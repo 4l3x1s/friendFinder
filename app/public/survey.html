@@ -5,13 +5,9 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <title></title>
-    <!-- Latest compiled and minified CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
-    <!-- Optional theme -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
-    <!-- jQuery library -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
-    <!-- Latest compiled Bootstraap JavaScript -->
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
 
     <link rel="stylesheet" type="text/css" href="style.css">
@@ -20,7 +16,7 @@
 
 <body>
     <div class="container">
-        <div class="jumbotron" align="center">
+        <div class="jumbotron" image-align="center">
             <h1><span class = "glyphicon glyphicon-th-list"></span> Survey</h1>
             <hr>
             <h2>Answer the following questions to find a BFF!</h2>
@@ -185,25 +181,24 @@
                 </div>
             </div>
         </div>
-        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/amacwhirter/FriendFinder">GitHub Repo</a></p>
+        <p><a href="/api/friends">API Friends List</a> | <a href="https://github.com/4l3x1s/friendFinder.git">GitHub Repo</a></p>
     </div>
 
-    <!--modal-->
     <div class="modal fade" id="imagemodal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
         <div class="modal-dialog">
             <div class="modal-content">
                 <div class="modal-body">
                     <button type="button" class="close" data-dismiss="modal"><span aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
-                    <div class="caption" align="center">Your new bestie is ... </div>
+                    <div class="caption" image-align="center">Your new BFF is ... </div>
                     <img src="" id="imagepreview" height=80% width=80%>
-                    <div class="caption" id="caption" align="center"></div>
+                    <div class="caption" id="caption" image-align="center"></div>
                 </div>
 
             </div>
         </div>
     </div>
 
-    <!-- JavaScript -->
+
     <script type="text/javascript">
         $("#add-btn").on("click", function() {
             event.preventDefault();

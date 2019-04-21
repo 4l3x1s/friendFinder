@@ -1,5 +1,4 @@
 //Array default friends
-
 var friends = [{
   name: "Craig Adderley",
   photo: "https://images.pexels.com/photos/1597690/pexels-photo-1597690.jpeg",
@@ -31,5 +30,4 @@ var friends = [{
 }];
 
  //export array
-
 module.exports = friends;
