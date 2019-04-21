@@ -2,11 +2,6 @@
   background-color: transparent;
 }
 
-body {
-    background: url("./images/friends.jpg") no-repeat center center fixed;
-    background-size: cover;
-  }
-
 .panel {
     background-color: rgba(245, 245, 245, 0.8);
 }
